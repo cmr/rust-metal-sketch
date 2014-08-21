@@ -9,6 +9,7 @@ pub struct BufferHints;
 pub struct TextureDescriptor;
 pub struct SamplerDescriptor;
 pub struct DepthStencilStateDescriptor;
+pub struct RenderPipelineDescriptor;
 
 pub trait Device {
     // error types. use proposed ToError/Error trait instead of Show.
