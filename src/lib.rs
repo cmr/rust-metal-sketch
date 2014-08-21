@@ -30,12 +30,6 @@ pub trait Device {
     type DepthStencilState;
     type RenderPipeline;
 
-    /// A string identifying the device.
-    ///
-    /// This name should only be used for debugging purposes, and is not guaranteed to be unique
-    /// across different devices.
-    fn name(&self) -> &str;
-
     /// Create a new shader program.
     ///
     /// The new shader program is a "ready to use" shader program that can be used for rendering.
